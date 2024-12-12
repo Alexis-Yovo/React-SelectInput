@@ -1,0 +1,30 @@
+.size-selector {
+    margin-bottom: 10px;
+  }
+
+  .size-selector label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  .size-selector select {
+    margin-left: 5%;
+    width: 90%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+    appearance: none;
+    background-color: white;
+  }
+
+  .size-selector select:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  p {
+    text-align: center;
+    }

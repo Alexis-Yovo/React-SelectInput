@@ -1,0 +1,27 @@
+.render-selector {
+    margin-bottom: 10px;
+  }
+
+  .render-selector label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  .render-selector select {
+    margin-left:5%;
+    width: 90%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+    appearance: none;
+    background-color: white;
+  }
+
+  .render-selector select:focus {
+    border-color: #007bff;
+    outline: none;
+  }
